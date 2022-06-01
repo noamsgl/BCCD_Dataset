@@ -54,5 +54,25 @@ if __name__ == "__main__":
     # drop errors
     dataset_df = dataset_df[dataset_df.cell_filename != 'error']
 
+    # specific corrections
+    dataset_df.loc[dataset_df['cell_filename'] == 'BloodImage_031_00.jpg', "wbc_category"] = 'NEUTROPHIL'
+    dataset_df.loc[dataset_df['cell_filename'] == 'BloodImage_031_01.jpg', "wbc_category"] = 'NEUTROPHIL'
+    dataset_df.loc[dataset_df['cell_filename'] == 'BloodImage_043_00.jpg', "wbc_category"] = 'NEUTROPHIL'
+    dataset_df.loc[dataset_df['cell_filename'] == 'BloodImage_043_01.jpg', "wbc_category"] = 'MONOCYTE'
+    dataset_df.loc[dataset_df['cell_filename'] == 'BloodImage_044_00.jpg', "wbc_category"] = 'EOSINOPHIL'
+    dataset_df.loc[dataset_df['cell_filename'] == 'BloodImage_044_01.jpg', "wbc_category"] = 'EOSINOPHIL'
+    dataset_df.loc[dataset_df['cell_filename'] == 'BloodImage_065_05.jpg', "wbc_category"] = 'NEUTROPHIL'
+    dataset_df.loc[dataset_df['cell_filename'] == 'BloodImage_065_06.jpg', "wbc_category"] = 'NEUTROPHIL'
+    dataset_df.loc[dataset_df['cell_filename'] == 'BloodImage_070_10.jpg', "wbc_category"] = 'EOSINOPHIL'
+    dataset_df.loc[dataset_df['cell_filename'] == 'BloodImage_070_11.jpg', "wbc_category"] = 'LYMPHOCYTE'
+    dataset_df.loc[dataset_df['cell_filename'] == 'BloodImage_195_10.jpg', "wbc_category"] = 'LYMPHOCYTE'
+    dataset_df.loc[dataset_df['cell_filename'] == 'BloodImage_195_12.jpg', "wbc_category"] = 'LYMPHOCYTE'
+    dataset_df.loc[dataset_df['cell_filename'] == 'BloodImage_249_00.jpg', "wbc_category"] = 'NEUTROPHIL'
+    dataset_df.loc[dataset_df['cell_filename'] == 'BloodImage_249_01.jpg', "wbc_category"] = 'NEUTROPHIL'
+    dataset_df.loc[dataset_df['cell_filename'] == 'BloodImage_313_10.jpg', "wbc_category"] = 'LYMPHOCYTE'
+    dataset_df.loc[dataset_df['cell_filename'] == 'BloodImage_313_11.jpg', "wbc_category"] = 'NEUTROPHIL'
+    dataset_df.loc[dataset_df['cell_filename'] == 'BloodImage_374_09.jpg', "wbc_category"] = 'NEUTROPHIL'
+    dataset_df.loc[dataset_df['cell_filename'] == 'BloodImage_374_10.jpg', "wbc_category"] = 'NEUTROPHIL'
+
     # save to csv
     dataset_df[['cell_filename', 'image_id', 'cell_id', 'cell_type', 'wbc_category']].to_csv('both.csv', index=False)

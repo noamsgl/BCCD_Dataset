@@ -538,8 +538,8 @@ BloodImage_030_21.jpg,30,21,Platelets,
 BloodImage_030_22.jpg,30,22,Platelets,
 BloodImage_030_23.jpg,30,23,Platelets,
 BloodImage_030_24.jpg,30,24,RBC,
-BloodImage_031_00.jpg,31,0,WBC,"NEUTROPHIL,NEUTROPHIL"
-BloodImage_031_01.jpg,31,1,WBC,"NEUTROPHIL,NEUTROPHIL"
+BloodImage_031_00.jpg,31,0,WBC,NEUTROPHIL
+BloodImage_031_01.jpg,31,1,WBC,NEUTROPHIL
 BloodImage_031_02.jpg,31,2,RBC,
 BloodImage_031_03.jpg,31,3,RBC,
 BloodImage_031_04.jpg,31,4,RBC,
@@ -799,8 +799,8 @@ BloodImage_042_12.jpg,42,12,Platelets,
 BloodImage_042_13.jpg,42,13,RBC,
 BloodImage_042_14.jpg,42,14,RBC,
 BloodImage_042_15.jpg,42,15,RBC,
-BloodImage_043_00.jpg,43,0,WBC,"NEUTROPHIL, MONOCYTE"
-BloodImage_043_01.jpg,43,1,WBC,"NEUTROPHIL, MONOCYTE"
+BloodImage_043_00.jpg,43,0,WBC,NEUTROPHIL
+BloodImage_043_01.jpg,43,1,WBC,MONOCYTE
 BloodImage_043_02.jpg,43,2,Platelets,
 BloodImage_043_03.jpg,43,3,Platelets,
 BloodImage_043_04.jpg,43,4,RBC,
@@ -815,8 +815,8 @@ BloodImage_043_12.jpg,43,12,RBC,
 BloodImage_043_13.jpg,43,13,RBC,
 BloodImage_043_14.jpg,43,14,RBC,
 BloodImage_043_15.jpg,43,15,RBC,
-BloodImage_044_00.jpg,44,0,WBC,"EOSINOPHIL,EOSINOPHIL"
-BloodImage_044_01.jpg,44,1,WBC,"EOSINOPHIL,EOSINOPHIL"
+BloodImage_044_00.jpg,44,0,WBC,EOSINOPHIL
+BloodImage_044_01.jpg,44,1,WBC,EOSINOPHIL
 BloodImage_044_02.jpg,44,2,RBC,
 BloodImage_044_03.jpg,44,3,RBC,
 BloodImage_044_04.jpg,44,4,RBC,
@@ -1097,8 +1097,8 @@ BloodImage_065_01.jpg,65,1,RBC,
 BloodImage_065_02.jpg,65,2,RBC,
 BloodImage_065_03.jpg,65,3,RBC,
 BloodImage_065_04.jpg,65,4,RBC,
-BloodImage_065_05.jpg,65,5,WBC,"NEUTROPHIL, NEUTROPHIL"
-BloodImage_065_06.jpg,65,6,WBC,"NEUTROPHIL, NEUTROPHIL"
+BloodImage_065_05.jpg,65,5,WBC,NEUTROPHIL
+BloodImage_065_06.jpg,65,6,WBC,NEUTROPHIL
 BloodImage_065_07.jpg,65,7,Platelets,
 BloodImage_066_00.jpg,66,0,RBC,
 BloodImage_066_01.jpg,66,1,RBC,
@@ -1161,8 +1161,8 @@ BloodImage_070_06.jpg,70,6,RBC,
 BloodImage_070_07.jpg,70,7,RBC,
 BloodImage_070_08.jpg,70,8,RBC,
 BloodImage_070_09.jpg,70,9,RBC,
-BloodImage_070_10.jpg,70,10,WBC,"EOSINOPHIL, LYMPHOCYTE"
-BloodImage_070_11.jpg,70,11,WBC,"EOSINOPHIL, LYMPHOCYTE"
+BloodImage_070_10.jpg,70,10,WBC,EOSINOPHIL
+BloodImage_070_11.jpg,70,11,WBC,LYMPHOCYTE
 BloodImage_071_00.jpg,71,0,RBC,
 BloodImage_071_01.jpg,71,1,RBC,
 BloodImage_071_02.jpg,71,2,RBC,
@@ -2371,9 +2371,9 @@ BloodImage_195_06.jpg,195,6,RBC,
 BloodImage_195_07.jpg,195,7,RBC,
 BloodImage_195_08.jpg,195,8,RBC,
 BloodImage_195_09.jpg,195,9,RBC,
-BloodImage_195_10.jpg,195,10,WBC,"LYMPHOCYTE, LYMPHOCYTE"
+BloodImage_195_10.jpg,195,10,WBC,LYMPHOCYTE
 BloodImage_195_11.jpg,195,11,Platelets,
-BloodImage_195_12.jpg,195,12,WBC,"LYMPHOCYTE, LYMPHOCYTE"
+BloodImage_195_12.jpg,195,12,WBC,LYMPHOCYTE
 BloodImage_196_00.jpg,196,0,RBC,
 BloodImage_196_01.jpg,196,1,RBC,
 BloodImage_196_02.jpg,196,2,RBC,
@@ -3013,8 +3013,8 @@ BloodImage_248_08.jpg,248,8,RBC,
 BloodImage_248_09.jpg,248,9,RBC,
 BloodImage_248_10.jpg,248,10,RBC,
 BloodImage_248_11.jpg,248,11,WBC,NEUTROPHIL
-BloodImage_249_00.jpg,249,0,WBC,"NEUTROPHIL, NEUTROPHIL"
-BloodImage_249_01.jpg,249,1,WBC,"NEUTROPHIL, NEUTROPHIL"
+BloodImage_249_00.jpg,249,0,WBC,NEUTROPHIL
+BloodImage_249_01.jpg,249,1,WBC,NEUTROPHIL
 BloodImage_249_02.jpg,249,2,Platelets,
 BloodImage_250_00.jpg,250,0,WBC,NEUTROPHIL
 BloodImage_251_00.jpg,251,0,RBC,
@@ -3710,8 +3710,8 @@ BloodImage_313_06.jpg,313,6,RBC,
 BloodImage_313_07.jpg,313,7,RBC,
 BloodImage_313_08.jpg,313,8,RBC,
 BloodImage_313_09.jpg,313,9,RBC,
-BloodImage_313_10.jpg,313,10,WBC,"NEUTROPHIL, LYMPHOCYTE"
-BloodImage_313_11.jpg,313,11,WBC,"NEUTROPHIL, LYMPHOCYTE"
+BloodImage_313_10.jpg,313,10,WBC,LYMPHOCYTE
+BloodImage_313_11.jpg,313,11,WBC,NEUTROPHIL
 BloodImage_314_00.jpg,314,0,RBC,
 BloodImage_314_01.jpg,314,1,RBC,
 BloodImage_314_02.jpg,314,2,RBC,
@@ -4413,8 +4413,8 @@ BloodImage_374_05.jpg,374,5,RBC,
 BloodImage_374_06.jpg,374,6,RBC,
 BloodImage_374_07.jpg,374,7,RBC,
 BloodImage_374_08.jpg,374,8,RBC,
-BloodImage_374_09.jpg,374,9,WBC,"NEUTROPHIL, NEUTROPHIL"
-BloodImage_374_10.jpg,374,10,WBC,"NEUTROPHIL, NEUTROPHIL"
+BloodImage_374_09.jpg,374,9,WBC,NEUTROPHIL
+BloodImage_374_10.jpg,374,10,WBC,NEUTROPHIL
 BloodImage_375_00.jpg,375,0,RBC,
 BloodImage_375_01.jpg,375,1,RBC,
 BloodImage_375_02.jpg,375,2,RBC,
